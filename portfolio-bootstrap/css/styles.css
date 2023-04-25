@@ -1,1 +1,33 @@
+/*
+  Student Name: Carlo Catlett
+  Date: 4/24/2023
+*/
 
+.neonText4 {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0000,
+      0 0 82px #ff0000,
+      0 0 2px #ff0000,
+      0 0 7px #ff0000,
+      0 0 120px #ff0000;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ff0000,
+    0 0 82px #ff0000,
+    0 0 2px #ff0000,
+    0 0 7px #ff0000,
+    0 0 120px #ff0000;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
