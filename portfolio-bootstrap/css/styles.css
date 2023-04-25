@@ -32,3 +32,18 @@
     text-shadow: none;
   }
 }
+.neonText2:hover{
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0000,
+      0 0 82px #ff0000,
+      0 0 2px #ff0000,
+      0 0 7px #ff0000,
+      0 0 120px #ff0000;
+      animation: flicker .6s infinite alternate;
+      animation-fill-mode: forwards;
+
+}
